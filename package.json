@@ -1,10 +1,13 @@
 {
   "name": "validate-country-currency",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "You can validate your country code and currency code by this lib",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "repository": {
+    "url": "https://github.com/dmitrygorbatikov/validate-country-currency"
+  },
   "scripts": {
     "build": "tsup"
   },
