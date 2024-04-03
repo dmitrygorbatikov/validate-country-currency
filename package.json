@@ -1,0 +1,27 @@
+{
+  "name": "validate-country-currency",
+  "version": "1.0.3",
+  "description": "You can validate your country code and currency code by this lib",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "validate",
+    "country",
+    "currency"
+  ],
+  "author": "dmitrygorbatikov",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "prettier": "^3.2.5"
+  }
+}
