@@ -9,7 +9,7 @@ Usage
 javascript
 
 ```
-const { getAllCountries, compareCountryWithCurrency } = require('country-currency');
+import { getAllCountries, compareCountryWithCurrency } from('validate-country-currency')
 
 const countries = getAllCountries();
 

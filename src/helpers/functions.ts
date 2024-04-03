@@ -9,5 +9,5 @@ export const compareCountryWithCurrency = (
   if (validCountries[countryCode]) {
     return validCountries[countryCode].currency.includes(currencyCode)
   }
-  throw new Error("Country code is not exist")
+  return false
 }
