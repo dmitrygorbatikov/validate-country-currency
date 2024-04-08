@@ -1,6 +1,6 @@
 {
   "name": "validate-country-currency",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "You can validate your country code and currency code by this lib",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
