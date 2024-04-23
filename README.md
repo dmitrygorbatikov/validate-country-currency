@@ -42,6 +42,13 @@ console.log(countries);
 console.log(compareCountryWithCurrency('UKR', 'UAH')); // true
 console.log(compareCountryWithCurrency('USA', 'EUR')); // false
 
+// Also you can chech country and currency as valid or not:
+
+console.log(isValidCurrency('USD')) // true
+console.log(isValidCurrency('ASFHSD')) // false
+console.log(isValidCountry('UKR')) // true
+console.log(isValidCountry('AFHDSJFSD')) // false
+
 ```
 API
 getAllCountries()
